@@ -402,15 +402,15 @@
   width: 24.25%;
   border-radius: 20px;
 }
-.category{
+.category {
   width: 85%;
   margin: 45px auto;
 }
-.category h2{
+.category h2 {
   text-align: center;
   font-size: 20px;
 }
-.category .category-item{
+.category .category-item {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -421,7 +421,7 @@
   width: 83%;
   margin: 0 auto;
 }
-.category .category-image{
+.category .category-image {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -429,24 +429,68 @@
   width: 170px;
   height: 170px;
 }
-.category .category-image p{
+.category .category-image p {
   margin-top: 15px;
 }
-.category .category-image img{
+.category .category-image img {
   width: 170px;
   height: 170px;
 }
-.second-landing{
+.offers-landing {
   width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
-.second-landing img{
-  height: 250px;
+.offers-landing img {
   width: 640px;
   border-radius: 25px;
-  margin: 20px 30px;
+  margin: 20px 0 15px 0;
+}
+.second-header {
+  text-align: center;
+  font-size: 20px;
+  margin: 40px 0;
+}
+.proposal-section {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #f2f3f5;
+  height: 270px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.proposal-section .proposal-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #f2f3f5;
+}
+.proposal-section .proposal-item .background {
+  width: 85px;
+  height: 85px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.proposal-section .proposal-item p {
+  margin-top: 9px;
+}
+.proposal-section .proposal-item img {
+  width: 60px;
+  height: 60px;
+}
+/* **problem in grid border** */
+.proposal-section #border-t {
+  border-top: 1px solid #f2f3f5;
+}
+.proposal-section #border-r {
+  border-right: none;
 }

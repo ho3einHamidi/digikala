@@ -452,7 +452,7 @@
 .second-header {
   text-align: center;
   font-size: 20px;
-  margin: 40px 0;
+  margin: 40px 0 20px 0;
 }
 .proposal-section {
   width: 85%;
@@ -493,4 +493,55 @@
 }
 .proposal-section #border-r {
   border-right: none;
+}
+.brands-landing{
+  width: 85%;
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f2f3f5;
+  border-radius: 20px;
+  
+}
+.brands-landing .brands-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.brands-landing .brands-header h2{
+  font-size: 21px;
+}
+.brands-landing .brands-header img{
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+.brands-landing .brands-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.brands-landing .brands-img img{
+  width: 110px;
+  height: 110px;
+  border-left: 1px solid #f2f3f5;
+  padding-left: 15px;
+}
+.promotion-landing{
+  width: 85%;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.promotion-landing img{
+  width: 49%;
+  height: 258px;
+  border-radius: 22px;
 }

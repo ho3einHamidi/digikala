@@ -794,7 +794,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
-  margin: 30px;
+  margin: 30px 0;
 }
 .main-footer .footer-landing .download-app{
   width: 20%;
@@ -829,3 +829,51 @@
   border-radius: 5px;
 }
 /* border-bottom: 1px solid #f1f2f4; */
+.main-footer .about-us{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e3e3e9;
+  border-right: none;
+  border-left: none;
+  padding: 35px 0;
+}
+.main-footer .about-us .right-side{
+  width: 56%;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-footer .about-us .right-side h3{
+  font-size: 14px;
+}
+
+.main-footer .about-us .right-side p{
+  color: #9898aa;
+}
+.main-footer .about-us .left-side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 23%;
+}
+.main-footer .about-us .left-side img{
+  width: 108px;
+  height: 108px;
+  border: 1px solid #e3e3e9;
+  border-radius: 10px;
+  padding: 20px;
+}
+.main-footer .copy-right{
+padding: 25px 0;
+}
+.main-footer .copy-right p{
+  font-size: 10px;
+  color: #9898aa;
+  text-align: center;
+}

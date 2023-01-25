@@ -1,0 +1,11 @@
+@media screen and (max-width:768px){
+    .digikala-site{
+        width: 100%;
+    }
+    .main-header{
+        width: 100%;
+    }
+    .main-header img {
+        width: 100%;
+      }
+}

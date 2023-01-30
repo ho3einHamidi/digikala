@@ -1,11 +1,163 @@
-@media screen and (max-width:768px){
-    .digikala-site{
-        width: 100%;
-    }
-    .main-header{
-        width: 100%;
-    }
-    .main-header img {
-        width: 100%;
-      }
+@media only screen and (max-width: 768px) {
+  .digikala-site {
+  }
+  .main-header {
+    width: 100%;
+    margin-top: 15px;
+
+  }
+  .main-header .top-landing img {
+    display: none;
+  }
+  .main-header .header {
+    padding: 0;
+    grid-template-columns: 1.5fr 1fr;
+    border-bottom: 1px solid #f1f2f4;
+padding-bottom: 15px;
+  }
+  .main-header .responsive-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1f2f4;
+    padding-bottom: 15px;
+  }
+  .main-header .responsive-header img:nth-child(even) {
+    width: 92px;
+    height: 24px;
+  }
+  .main-header .header .right-section .res-logo {
+    display: none;
+  }
+  .main-header .header .left-section .login{
+border: none;
+max-width: 90px;
+margin-left: 0;
+  }
+  .main-header .header .left-section .login p:last-child {
+    display: none;
+  }
+  .main-header .header .left-section .login #log {
+    border: none;
+  }
+  .main-header .header .left-section .shop-icon{
+    border: none;
+    padding-left: 0;
+  }
+  .main-header .header .left-section{
+    justify-content: center;
+  }
+  .navigation{
+    padding: 0 15px;
+  }
+  .navigation .items{
+    display: none;
+  }
+  .navigation .chevron-left{
+    display: flex;
+    
+  }
+  .navigation .chevron-left img{
+    width: 20px;
+    height: 20px;
+  }
+  .navigation .location{
+    width: 100%;
+    justify-content: start;
+  }
+  .navigation .location p{
+    padding-right: 15px;
+  }
+  .landing img{
+    height: 248px;
+  }
+  .app-links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    max-height: none;
+    height: auto;
+    width: 100%;
+    margin: 15px 0;
+  }
+  .app-links .app-item p{
+    font-size: 9px;
+  }
+  .incredible-offers{
+    width: 100%;
+    border-radius: 0;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .incredible-offers .offers-item{
+    width: 100%;
+  }
+  .incredible-offers .offers-start{
+    width: 100%;
+  }
+  .incredible-offers .offers-item:nth-child(n+4){
+    display: none;
+  }
+  .fresh-offers{
+    width: 93%;
+    grid-template-rows:repeat(2,1fr) ;
+grid-template-columns:repeat(1,1fr) ;
+    max-height: none;
+    height: 150px;
+  }
+  .fresh-offers .right-details{
+    width: 100%;
+    justify-content: start;
+    padding: 10px;
+  }
+  .fresh-offers .right-details #market-offer{
+    display: none;
+  }
+  .fresh-offers .right-details img{
+    width: 40px;
+    height: 40px;
+  }
+  .fresh-offers .products{
+    width: 100%;
+  }
+  .fresh-offers .products .products-section{
+    width: 100%;
+  }
+  .fresh-offers .products .products-image img:nth-child(n+4){
+    display: none;
+
+  }
+  .fresh-offers .products .products-offer p:nth-child(n+4){
+    display: none;
+  }
+
+  .fresh-offers .products .more-button p{
+    display: none;
+
+  }
+  .fresh-offers .products .products-image{
+    width: 85%;
+  }
+  .fresh-offers .products .products-offer{
+    width: 85%;
+  }
+  .promotion-section{
+    display: grid;
+grid-template-columns: repeat(2,auto);
+grid-template-rows: repeat(2,auto);
+gap: 10px;
+width: 93%;
+  }
+  .promotion-section img{
+    width: 100%;
+border-radius: 20px;
+  }
+  .category .category-item{
+    /* display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(4,1fr); */
+  }
 }
+
